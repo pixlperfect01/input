@@ -1,4 +1,4 @@
-var ans = Math.trunc(Math.random()*10000);
+var ans = Math.trunc(Math.random()*100000);
 function check(){
 var inpt = document.getElementById('input');
 var btn = document.getElementById('btn');
