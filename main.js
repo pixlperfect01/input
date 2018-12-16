@@ -11,4 +11,5 @@ console.log(ans+' was right!');
 function reset(){
 ans = Math.trunc(Math.random()*10000);
 document.getElementById('input').value="";
+document.getElementById('div').hidden=true;
 }
